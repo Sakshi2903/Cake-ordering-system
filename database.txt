@@ -1,0 +1,27 @@
+create table details
+(
+	name varchar2(20),
+	phone varchar2(10),
+	username varchar2(20),
+	password varchar2(20)
+);
+
+create table feedback
+(
+	name varchar2(255),
+	email varchar2(255),
+	rating varchar2(255),
+	descr varchar2(255)
+);
+
+create table order_details
+(
+	name varchar2(20),
+	phno varchar2(10),
+	address varchar2(20),
+	cake_type varchar2(20),
+	cake_flavour varchar2(20),
+	candles varchar2(20),
+	layers varchar2(20),
+	tot_price float(126)
+);
